@@ -1,0 +1,15 @@
+[package]
+name = "JellyBot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version = "0.11.14", features = ["blocking", "json"] }
+rocket = { version = "0.5.0-rc.2" , features = ["json"]}
+rust-i18n = "1.2.2"
+serde = "1.0.154"
+serde_derive = "1.0.154"
+serde_json = "1.0.94"
+url = "2.3.1"

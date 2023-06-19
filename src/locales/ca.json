@@ -1,0 +1,5 @@
+{
+  "watch_trailer": "Veure trailer",
+  "movie_available": "*%{name}* ja disponible a Jellyfin.",
+  "tv_show_available": "*%{name}* Temporada %{season} Episodi %{episode_number} ja disponible a Jellyfin"
+}
